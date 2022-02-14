@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid black;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 25px;
+}
+
+h1 {
+    font-size: 61px;
+}
+
+button {
+    border: none;
+    padding: 10px 24px;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+#count {
+    font-size: 65px;
+}
+
+#previous-entries,
+#prev {
+    font-size: 35px
+}
+
+#prev {
+    text-align: left;
+}
