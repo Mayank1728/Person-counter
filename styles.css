@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    border: 2px solid black;
+    border: 5px solid black;
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
@@ -29,5 +29,6 @@ button {
 }
 
 #prev {
+    padding-top: 30px;
     text-align: left;
 }
