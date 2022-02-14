@@ -1,16 +1,30 @@
 let num = 0
-let incrementBtn = document.getElementById("inc-btn")
+const incrementBtn = document.getElementById("inc-btn")
+const saveBtn = document.getElementById("save-btn")
+const decBtn = document.getElementById("dec-btn")
+const count = document.getElementById("count")
+
+
+// as user clicks on increment button
 incrementBtn.addEventListener("click", function() {
-    let count = document.getElementById("count")
     num = parseInt(count.textContent)
     num += 1
     count.textContent = num
-    console.log(num)
-
 })
 
-let saveBtn = document.getElementById("save-btn")
+// as user clicks on save btn
 saveBtn.addEventListener("click", function() {
-    let prev = document.getElementById("previous-entries")
+    const prev = document.getElementById("previous-entries")
     prev.innerHTML += `${num} - `
+})
+
+//as user clicks on decrement button
+decBtn.addEventListener("click", function() {
+    num = num - 1
+    if (num >= 0) {
+        count.textContent = num
+    }
+    else {
+        count.textContent = 0
+    }
 })
