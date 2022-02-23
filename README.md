@@ -1,11 +1,8 @@
 # Person-counter
 <br>
-My first project
-<br>
-Check out whether its working or not! https://mayank1728.github.io/Person-counter/
-On Netlify: https://elated-euclid-130be9.netlify.app/
-<br>
-
+My first project <br>
+Check out whether its working or not! https://mayank1728.github.io/Person-counter/ <br>
+On Netlify: https://elated-euclid-130be9.netlify.app/  <br>
 ToDo
 <br>
 1- hover states for the buttons
